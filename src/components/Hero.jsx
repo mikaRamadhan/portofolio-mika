@@ -46,7 +46,8 @@ export default function Hero() {
           <a href="#projects" className="btn primary">{t.hero.viewProjects}</a>
           <a href="#contact" className="btn secondary">{t.hero.contactMe}</a>
           <a href={`${import.meta.env.BASE_URL}cv-mika-ramadhan.pdf`} download className="btn ghost">
-            <FaDownload /> {t.hero.downloadCV}</a>
+            <FaDownload /> Download CV
+          </a>
         </div>
 
         <div className="hero-stats">
